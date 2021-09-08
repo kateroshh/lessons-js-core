@@ -56,6 +56,8 @@ html {
 }
 .contacts__title:after {
 	/* добавьте ваш код  */
+  content: ":";
+
 }
 .contacts__link {
 	color: gray;
