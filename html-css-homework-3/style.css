@@ -27,6 +27,11 @@ html {
 	/* добавьте ваш код  */
 }
 .avatar {
+  transition: all 1s ease-out;
+	
+}
+.avatar:hover {
+  transform: translate(-250px, 50px) rotate(180deg);
 	
 }
 .avatar__picture {
